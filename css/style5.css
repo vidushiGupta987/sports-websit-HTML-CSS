@@ -1,0 +1,48 @@
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(reach.jpg);
+background-size: cover;
+		color:white;
+	}
+	h1{
+		 font-size: 180%;
+		 color:red;
+	}
+	p{
+		font-size: 130%;
+	}
+	marquee{
+		font-size: 170%;
+	
+		background: white;
+		opacity:0.4;
+	}
+	
+marquee a:hover{
+	color:red;
+}
+.button a{
+margin-top: 20px;
+margin-left: 10px;
+  float: right;
+  width:70px;
+  height: auto;
+  color:#03a9f4;
+
+
+}
+.button a:hover
+{
+  background:grey;
+  color:#003366;
+}
+.btn{
+  border:1px;
+  border-radius:5px;
+  background: black;
+  opacity:0.7;
+  padding:10px 30px;
+  color:#fff;
+  text-decoration: none;
+}
+
+	

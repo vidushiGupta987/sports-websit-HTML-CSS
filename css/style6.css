@@ -1,0 +1,46 @@
+body{
+  background: black;
+  color:yellow;
+  box-sizing: border-box;
+}
+p{
+  padding:20px;
+  margin:15px;
+  text-align: left;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  height:auto;
+  padding: 10px;
+  margin:10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button a{
+margin-bottom: 20px;
+margin-left: 10px;
+  float: right;
+  width:70px;
+  height: auto;
+  color:#03a9f4;
+
+
+}
+.button a:hover
+{
+  background:grey;
+  color:#003366;
+}
+.btn{
+  border:1px;
+  border-radius:5px;
+  background: black;
+  opacity:0.7;
+  padding:10px 30px;
+  color:#fff;
+  text-decoration: none;
+}
